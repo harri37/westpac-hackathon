@@ -9,9 +9,17 @@
     "lint": "next lint"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@westpac/ui": "^0.24.0",
     "next": "14.2.4",
     "react": "^18",
+=======
+    "chart.js": "^4.4.3",
+    "next": "14.2.4",
+    "openai": "^4.52.3",
+    "react": "^18",
+    "react-chartjs-2": "^5.2.0",
+>>>>>>> b529ad5 (added some OpenAI stuff)
     "react-dom": "^18"
   },
   "devDependencies": {
@@ -21,6 +29,10 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.4",
     "postcss": "^8",
+<<<<<<< HEAD
+=======
+    "tailwindcss": "^3.4.1",
+>>>>>>> b529ad5 (added some OpenAI stuff)
     "typescript": "^5"
   }
 }
