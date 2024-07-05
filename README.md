@@ -11,3 +11,5 @@ Some services are only available using OpenAI API. To use this you'll need to pr
 
 Then, in `.env` put:
 `NEXT_PUBLIC_API_KEY="sk-proj-....whatever key this is....."`
+
+Please contact @Hasakev or @harri37 if you want a temporary API key :)
