@@ -8,7 +8,7 @@ export default function Home() {
         <Header brand="wbc"/>
         <h1>Home</h1>
         
-        <OpenAIComponent />
+        {/* <OpenAIComponent /> */}
 
       </>
   );
