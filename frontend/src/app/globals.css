@@ -16,6 +16,10 @@
   }
 }
 
+.red-text { 
+  color: red;
+}
+
 /* body {
   color: rgb(var(--foreground-rgb));
   background: linear-gradient(
@@ -30,4 +34,46 @@
   .text-balance {
     text-wrap: balance;
   }
+}
+
+.cell-text-color {
+  color: #008000; 
+}
+
+.header-content > * {
+  text-align: left; /* Align text of all direct children to the left */
+}
+
+/* Profile.module.css */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.header-content h1 {
+  margin-bottom: 20px;
+}
+
+.profile-details {
+  margin-bottom: 20px;
+}
+
+.profile-details h2, .profile-details p {
+  margin: 5px 0;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.list-item a {
+  color: #0073e6;
+  text-decoration: none;
+  padding: 10px 0;
+  display: block;
 }
