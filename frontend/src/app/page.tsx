@@ -4,10 +4,12 @@ import { List, ListItem } from '@westpac/ui/list'
 export default function Home() {
     return (
       <>
-        <Header brand="wbc"/>
+        <Header brand="wbc" className="header-content">
+          <h1>Westpac wizzard</h1>
+        </Header>
+
         <h1>Home</h1>
-        
-        {/* Link to pages */}
+ 
         <List type="link" spacing='medium'>
           <ListItem href="/save">
             Save
@@ -15,7 +17,11 @@ export default function Home() {
           <ListItem href="/invest">
             Invest
           </ListItem>
+          <ListItem href="/profile">
+            Profile
+          </ListItem>
         </List>
+
 
       </>
   );
