@@ -1,11 +1,12 @@
 import { Header } from '@westpac/ui/header'
 import { List, ListItem } from '@westpac/ui/list'
+import { About } from "./sections/about";
 
 export default function Home() {
     return (
       <>
         <Header brand="wbc"/>
-        <h1>Home</h1>
+        <About />
         
         {/* Link to pages */}
         <List type="link" spacing='medium'>
