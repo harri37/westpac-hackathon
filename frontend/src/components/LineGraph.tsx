@@ -8,7 +8,9 @@ import {
   Title,
   Tooltip,
   Legend,
+  Filler,
 } from "chart.js";
+import { title } from "process";
 
 ChartJS.register(
   CategoryScale,
@@ -17,29 +19,15 @@ ChartJS.register(
   LineElement,
   Title,
   Tooltip,
-  Legend
+  Legend,
+  Filler
 );
 
 export const LineGraph = (data: any) => {
   // Ensure data is properly structured to match ChartJS data format
   const chartData = {
-    labels: [
-      "July 2023",
-      "August 2023",
-      "September 2023",
-      "October 2023",
-      "November 2023",
-      "December 2023",
-    ],
-    datasets: [
-      {
-        label: "Projected Earnings",
-        data: [4500, 4600, 4700, 4800, 4900, 5000],
-        borderColor: "rgba(75, 192, 192, 1)",
-        backgroundColor: "rgba(75, 192, 192, 0.2)",
-        fill: true,
-      },
-    ],
+    labels: data.data.labels,
+    datasets: data.data.datasets,
   };
 
   const options = {};

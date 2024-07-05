@@ -14,7 +14,8 @@ export const transactions = [{
       "date": "2023-06-05",
       "description": "Rent",
       "amount": -1200,
-      "type": "debit"
+      "type": "debit",
+      "indepth": "Rent for the month of June 2023"
     },
     {
       "date": "2023-06-10",
@@ -47,4 +48,5 @@ export const transactions = [{
       "type": "debit"
     }
   ];
+  
   
